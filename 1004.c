@@ -1,15 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main () {
- 
-    int valor1,valor2,produto;
+int main()
+{
 
-    scanf("%d %d",&valor1,&valor2);
+    int valor1, valor2, produto;
 
-    produto=valor1*valor2;
+    scanf("%d %d", &valor1, &valor2);
 
-    printf("PROD = %d\n",produto);
- 
+    produto = valor1 * valor2;
+
+    printf("PROD = %d\n", produto);
+
     return 0;
 }
